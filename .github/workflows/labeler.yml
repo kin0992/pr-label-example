@@ -19,3 +19,4 @@ jobs:
       - uses: actions/labeler@v4
         with:
           sync-labels: false
+          dot: true
