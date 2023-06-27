@@ -17,3 +17,5 @@ jobs:
           l_max_size: '1000'
           fail_if_xl: 'false'
       - uses: actions/labeler@v4
+        with:
+          sync-labels: false
