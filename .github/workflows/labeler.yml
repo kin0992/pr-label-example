@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/labeler@9fcb2c2f5584144ca754f8bfe8c6f81e77753375
         with:
-          configuration-path: .github/labeler-pull-request-triage.yml
+          configuration-path: .github/labeler.yml
           repo-token: ${{ secrets.GITHUB_TOKEN }}
       - uses: CodelyTV/pr-size-labeler@54ef36785e9f4cb5ecf1949cfc9b00dbb621d761
         with:
