@@ -8,10 +8,6 @@ jobs:
       pull-requests: write
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/labeler@v4
-        with:
-          sync-labels: false
-          dot: true
       - uses: codelytv/pr-size-labeler@v1 # Add PR size label
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
