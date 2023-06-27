@@ -1,2 +1,2 @@
-ci: .github/workflows
+ci: .github/workflows/*
 docs: README.md
