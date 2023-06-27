@@ -14,5 +14,5 @@ jobs:
     steps:
       - uses: deepakputhraya/action-pr-title@3864bebc79c5f829d25dd42d3c6579d040b0ef16
         with:
-          allowed_prefixes: 'features/,fixes/,hotfixes/' # title should start with the given prefix
-          disallowed_prefixes: 'feat/,fix/,feature/' # title should not start with the given prefix
+          allowed_prefixes: 'features,fixes,hotfixes' # title should start with the given prefix
+          disallowed_prefixes: 'feat,fix,feature' # title should not start with the given prefix
