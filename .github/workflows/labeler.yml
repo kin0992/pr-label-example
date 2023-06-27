@@ -30,5 +30,4 @@ jobs:
           message_if_xl: >
             This PR exceeds the recommended size of 400 lines.
             Please make sure you are NOT addressing multiple issues with one PR.
-          files_to_ignore: |
-            "package-lock.json"
+          files_to_ignore: 'package-lock.json'
